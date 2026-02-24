@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ruby_helemt": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gemsoresmod:ruby"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "gemsoresmod:ruby_helmet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ruby_helemt"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "gemsoresmod:ruby_helmet"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "gemsoresmod:item/topaz_shovel"
+  }
+}

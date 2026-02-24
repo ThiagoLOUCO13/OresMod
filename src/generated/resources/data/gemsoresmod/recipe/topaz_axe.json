@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "T": {
+      "item": "gemsoresmod:topaz"
+    }
+  },
+  "pattern": [
+    " TT",
+    " ST",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "gemsoresmod:topaz_axe"
+  }
+}

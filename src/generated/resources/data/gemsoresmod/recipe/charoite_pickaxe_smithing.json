@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "gemsoresmod:charoite"
+  },
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "result": {
+    "count": 1,
+    "id": "gemsoresmod:charoite_pickaxe"
+  },
+  "template": {
+    "item": "gemsoresmod:charoite_upgrade_smithing_template"
+  }
+}

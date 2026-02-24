@@ -1,0 +1,17 @@
+{
+  "type": "gemsoresmod:add_item",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:chests/village/village_armorer"
+    },
+    {
+      "chance": 0.156,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": {
+    "count": 1,
+    "id": "gemsoresmod:sapphire"
+  }
+}

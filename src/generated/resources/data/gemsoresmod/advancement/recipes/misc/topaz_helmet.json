@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "gemsoresmod:topaz_helmet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_topaz_helemt": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gemsoresmod:topaz"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_topaz_helemt"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "gemsoresmod:topaz_helmet"
+    ]
+  }
+}

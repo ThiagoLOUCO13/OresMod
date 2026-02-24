@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "gemsoresmod:prism"
+  },
+  "base": {
+    "item": "gemsoresmod:enderite_helmet"
+  },
+  "result": {
+    "count": 1,
+    "id": "gemsoresmod:prism_helmet"
+  },
+  "template": {
+    "item": "gemsoresmod:prism_upgrade_smithing_template"
+  }
+}

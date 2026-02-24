@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "gemsoresmod:ruby"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " RR",
+    " SR",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "gemsoresmod:ruby_axe"
+  }
+}

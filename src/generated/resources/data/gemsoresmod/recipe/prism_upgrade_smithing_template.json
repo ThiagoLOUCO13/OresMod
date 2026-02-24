@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "gemsoresmod:enderite_upgrade_smithing_template"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "gemsoresmod:prism"
+    }
+  },
+  "pattern": [
+    "ISI",
+    "IEI",
+    "III"
+  ],
+  "result": {
+    "count": 1,
+    "id": "gemsoresmod:prism_upgrade_smithing_template"
+  }
+}

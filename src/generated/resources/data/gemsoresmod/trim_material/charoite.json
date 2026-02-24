@@ -1,0 +1,9 @@
+{
+  "asset_name": "charoite",
+  "description": {
+    "color": "#031CFC",
+    "translate": "trim_material.gemsoresmod.charoite"
+  },
+  "ingredient": "gemsoresmod:charoite",
+  "item_model_index": 1.0
+}

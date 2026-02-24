@@ -1,0 +1,17 @@
+{
+  "type": "gemsoresmod:add_item",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:chests/desert_pyramid"
+    },
+    {
+      "chance": 0.116,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": {
+    "count": 1,
+    "id": "gemsoresmod:topaz_horse_armor"
+  }
+}

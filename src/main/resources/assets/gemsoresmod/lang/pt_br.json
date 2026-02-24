@@ -1,0 +1,142 @@
+{
+  "item.gemsoresmod.ruby": "Rubi",
+  "item.gemsoresmod.sapphire": "Safira",
+  "item.gemsoresmod.topaz": "Topázio",
+  "item.gemsoresmod.charoite": "Charoíta",
+  "item.gemsoresmod.enderite": "Enderite",
+  "item.gemsoresmod.prism": "Prisma",
+  "item.gemsoresmod.topaz_nugget": "Pepita de Topázio",
+  "item.gemsoresmod.lapis_nugget": "Pepita de Lapis Lazuli",
+  "item.gemsoresmod.coal_nugget": "Pepita de Carvão",
+  "item.gemsoresmod.diamond_nugget": "Pepita de Diamante",
+  "item.gemsoresmod.copper_nugget": "Pepita de Cobre",
+
+
+  "block.gemsoresmod.ruby_block": "Bloco de Rubi",
+  "block.gemsoresmod.ruby_ore": "Minério de Rubi",
+  "block.gemsoresmod.deepslate_ruby_ore": "Minério de Rubi de Ardosiabissal",
+  "block.gemsoresmod.sapphire_block": "Bloco de Safira",
+  "block.gemsoresmod.sapphire_ore": "Minério de Safira",
+  "block.gemsoresmod.deepslate_sapphire_ore": "Minério de Safira de Ardosiabissal",
+  "block.gemsoresmod.topaz_block": "Bloco de Topázio",
+  "block.gemsoresmod.topaz_ore": "Minério de Topázio",
+  "block.gemsoresmod.deepslate_topaz_ore": "Minério de Topázio de Ardosiabissal",
+  "block.gemsoresmod.nether_topaz_ore": "Minério de Topázio do Nether",
+  "block.gemsoresmod.nether_coal_ore": "Minério de Carvão do Nether",
+  "block.gemsoresmod.nether_iron_ore": "Minério de Ferro do Nether",
+  "block.gemsoresmod.nether_lapis_ore": "Minério de Lapis Lazuli do Nether",
+  "block.gemsoresmod.nether_redstone_ore": "Minério de Redstone do Nether",
+  "block.gemsoresmod.nether_diamond_ore": "Minério de Diamante do Nether",
+  "block.gemsoresmod.nether_copper_ore": "Minério de Cobre do Nether",
+  "block.gemsoresmod.charoite_block": "Bloco de Charoíta",
+  "block.gemsoresmod.enderite_block": "Bloco de Enderite",
+  "block.gemsoresmod.nether_charoite_ore": "Minério de Charoíta do Nether",
+  "block.gemsoresmod.end_charoite_ore": "Minério de Charoíta do End",
+  "block.gemsoresmod.prism_block": "Bloco de Prisma",
+
+
+  "item.gemsoresmod.ruby_sword": "Espada de Rubi",
+  "item.gemsoresmod.ruby_pickaxe": "Picareta de Rubi",
+  "item.gemsoresmod.ruby_shovel": "Pá de Rubi",
+  "item.gemsoresmod.ruby_axe": "Machado de Rubi",
+  "item.gemsoresmod.ruby_hoe": "Inchada de Rubi",
+
+  "item.gemsoresmod.topaz_sword": "Espada de Topázio",
+  "item.gemsoresmod.topaz_pickaxe": "Picareta de Topázio",
+  "item.gemsoresmod.topaz_shovel": "Pá de Topázio",
+  "item.gemsoresmod.topaz_axe": "Machado de Topázio",
+  "item.gemsoresmod.topaz_hoe": "Inchada de Topázio",
+
+  "item.gemsoresmod.sapphire_sword": "Espada de Safira",
+  "item.gemsoresmod.sapphire_pickaxe": "Picareta de Safira",
+  "item.gemsoresmod.sapphire_shovel": "Pá de Safira",
+  "item.gemsoresmod.sapphire_axe": "Machado de Safira",
+  "item.gemsoresmod.sapphire_hoe": "Inchada de Safira",
+
+  "item.gemsoresmod.charoite_sword": "Espada de Charoíta",
+  "item.gemsoresmod.charoite_pickaxe": "Picareta de Charoíta",
+  "item.gemsoresmod.charoite_shovel": "Pá de Charoíta",
+  "item.gemsoresmod.charoite_axe": "Machado de Charoíta",
+  "item.gemsoresmod.charoite_hoe": "Inchada de Charoíta",
+
+  "item.gemsoresmod.enderite_sword": "Espada de Enderite",
+  "item.gemsoresmod.enderite_pickaxe": "Picareta de Enderite",
+  "item.gemsoresmod.enderite_shovel": "Pá de Enderite",
+  "item.gemsoresmod.enderite_axe": "Machado de Enderite",
+  "item.gemsoresmod.enderite_hoe": "Inchada de Enderite",
+
+  "item.gemsoresmod.prism_sword": "Espada de Prisma",
+  "item.gemsoresmod.prism_pickaxe": "Picareta de Prisma",
+  "item.gemsoresmod.prism_shovel": "Pá de Prisma",
+  "item.gemsoresmod.prism_axe": "Machado de Prisma",
+  "item.gemsoresmod.prism_hoe": "Inchada de Prisma",
+
+
+  "item.gemsoresmod.ruby_helmet": "Capacete de Rubi",
+  "item.gemsoresmod.ruby_chestplate": "Peitoral de Rubi",
+  "item.gemsoresmod.ruby_leggings": "Calça de Rubi",
+  "item.gemsoresmod.ruby_boots": "Botas de Rubi",
+
+  "item.gemsoresmod.topaz_helmet": "Capacete de Topázio",
+  "item.gemsoresmod.topaz_chestplate": "Peitoral de Topázio",
+  "item.gemsoresmod.topaz_leggings": "Calça de Topázio",
+  "item.gemsoresmod.topaz_boots": "Botas de Topázio",
+
+  "item.gemsoresmod.sapphire_helmet": "Capacete de Safira",
+  "item.gemsoresmod.sapphire_chestplate": "Peitoral de Safira",
+  "item.gemsoresmod.sapphire_leggings": "Calça de Safira",
+  "item.gemsoresmod.sapphire_boots": "Botas de Safira",
+
+  "item.gemsoresmod.charoite_helmet": "Capacete de Charoíta",
+  "item.gemsoresmod.charoite_chestplate": "Peitoral de Charoíta",
+  "item.gemsoresmod.charoite_leggings": "Calça de Charoíta",
+  "item.gemsoresmod.charoite_boots": "Botas de Charoíta",
+
+  "item.gemsoresmod.enderite_helmet": "Capacete de Enderite",
+  "item.gemsoresmod.enderite_chestplate": "Peitoral de Enderite",
+  "item.gemsoresmod.enderite_leggings": "Calça de Enderite",
+  "item.gemsoresmod.enderite_boots": "Botas de Enderite",
+
+  "item.gemsoresmod.prism_helmet": "Capacete de Prisma",
+  "item.gemsoresmod.prism_chestplate": "Peitoral de Prisma",
+  "item.gemsoresmod.prism_leggings": "Calça de Prisma",
+  "item.gemsoresmod.prism_boots": "Botas de Prisma",
+
+
+  "item.gemsoresmod.ruby_horse_armor": "Armadura de Rubi para Cavalo",
+  "item.gemsoresmod.topaz_horse_armor": "Armadura de Topázio para Cavalo",
+  "item.gemsoresmod.sapphire_horse_armor": "Armadura de Safira para Cavalo",
+  "item.gemsoresmod.charoite_horse_armor": "Armadura de Charoíta para Cavalo",
+  "item.gemsoresmod.enderite_horse_armor": "Armadura de Enderite para Cavalo",
+  "item.gemsoresmod.prism_horse_armor": "Armadura de Prisma para Cavalo",
+
+
+  "trim_material.gemsoresmod.ruby": "Material de Rubi",
+  "trim_material.gemsoresmod.sapphire": "Material de Safira",
+  "trim_material.gemsoresmod.topaz": "Material de Topázio",
+  "trim_material.gemsoresmod.charoite": "Material de Charoíta",
+  "trim_material.gemsoresmod.enderite": "Material de Enderite",
+  "trim_material.gemsoresmod.prism": "Material de Prisma",
+
+
+  "item.gemsoresmod.charoite_upgrade_smithing_template": "Molde de Ferraria",
+  "item.gemsoresmod.smithing_template.charoite_upgrade.applies_to": "Equipamento de Netherite",
+  "upgrade.gemsoresmod.charoite_upgrade": "Melhoria Charoíta",
+  "item.gemsoresmod.smithing_template.charoite_upgrade.ingredients": "Charoíta",
+  "item.gemsoresmod.smithing_template.charoite_upgrade.base_slot_description": "Adicione Armadura de netherite, Armas, ou Ferramentas",
+  "item.gemsoresmod.smithing_template.charoite_upgrade.additions_slot_description": "Adicione Charoite",
+
+  "item.gemsoresmod.enderite_upgrade_smithing_template": "Molde de Ferraria",
+  "item.gemsoresmod.smithing_template.enderite_upgrade.applies_to": "Equipamento de Charoíta",
+  "upgrade.gemsoresmod.enderite_upgrade": "Melhoria Enderite",
+  "item.gemsoresmod.smithing_template.enderite_upgrade.ingredients": "Enderite",
+  "item.gemsoresmod.smithing_template.enderite_upgrade.base_slot_description": "Adicione Armadura de Charoíta, Armas, ou Ferramentas",
+  "item.gemsoresmod.smithing_template.enderite_upgrade.additions_slot_description": "Adicione Enderite",
+
+  "item.gemsoresmod.prism_upgrade_smithing_template": "Molde de Ferraria",
+  "item.gemsoresmod.smithing_template.prism_upgrade.applies_to": "Equipamento de Enderite",
+  "upgrade.gemsoresmod.prism_upgrade": "Melhoria Prisma",
+  "item.gemsoresmod.smithing_template.prism_upgrade.ingredients": "Prisma",
+  "item.gemsoresmod.smithing_template.prism_upgrade.base_slot_description": "Adicione Armadura de Enderite, Armas, ou Ferramentas",
+  "item.gemsoresmod.smithing_template.prism_upgrade.additions_slot_description": "Adicione Prisma"
+}

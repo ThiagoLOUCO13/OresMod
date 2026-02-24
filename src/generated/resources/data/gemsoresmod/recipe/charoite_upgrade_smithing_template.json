@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "gemsoresmod:charoite"
+    },
+    "N": {
+      "item": "minecraft:netherrack"
+    },
+    "U": {
+      "item": "gemsoresmod:charoite_upgrade_smithing_template"
+    }
+  },
+  "pattern": [
+    "NCN",
+    "NUN",
+    "NNN"
+  ],
+  "result": {
+    "count": 2,
+    "id": "gemsoresmod:charoite_upgrade_smithing_template"
+  }
+}

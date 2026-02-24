@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "topaz_nugget",
+  "ingredient": {
+    "item": "gemsoresmod:topaz_sword"
+  },
+  "result": {
+    "count": 1,
+    "id": "gemsoresmod:topaz_nugget"
+  }
+}

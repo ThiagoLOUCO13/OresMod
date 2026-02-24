@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gemsoresmod:block/nether_redstone_ore"
+    }
+  }
+}

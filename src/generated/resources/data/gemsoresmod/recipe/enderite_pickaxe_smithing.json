@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "gemsoresmod:enderite"
+  },
+  "base": {
+    "item": "gemsoresmod:charoite_pickaxe"
+  },
+  "result": {
+    "count": 1,
+    "id": "gemsoresmod:enderite_pickaxe"
+  },
+  "template": {
+    "item": "gemsoresmod:enderite_upgrade_smithing_template"
+  }
+}

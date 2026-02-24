@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "gemsoresmod:enderite"
+  },
+  "base": {
+    "item": "gemsoresmod:charoite_axe"
+  },
+  "result": {
+    "count": 1,
+    "id": "gemsoresmod:enderite_axe"
+  },
+  "template": {
+    "item": "gemsoresmod:enderite_upgrade_smithing_template"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "haS_topaz_Sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gemsoresmod:topaz"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "gemsoresmod:topaz_sword"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "haS_topaz_Sword"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "gemsoresmod:topaz_sword"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gemsoresmod:ruby"
+    },
+    {
+      "item": "gemsoresmod:sapphire"
+    },
+    {
+      "item": "gemsoresmod:topaz"
+    },
+    {
+      "item": "gemsoresmod:charoite"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "gemsoresmod:prism"
+  }
+}

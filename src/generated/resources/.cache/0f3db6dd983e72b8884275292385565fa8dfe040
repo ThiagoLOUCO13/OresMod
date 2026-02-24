@@ -1,0 +1,14 @@
+// 1.21.1	2026-02-23T16:04:37.4049439	Tags for minecraft:item mod id gemsoresmod
+e0c7747ec3171031931451db2ab29bc0808c5d27 data/c/tags/item/gems.json
+ff97a3dd0117557d81ecaf882f43c1b615c966a3 data/minecraft/tags/item/axes.json
+c70beb5d69e99657532c33c977519fd89f51cad9 data/minecraft/tags/item/beacon_payment_items.json
+b78de828873ba952556da522ed656f2f412df9a7 data/minecraft/tags/item/chest_armor.json
+c828fc3dc14f689d48dd85c1a18346a277717bd0 data/minecraft/tags/item/foot_armor.json
+3173f4e0ade6c3ccd98aba505cf8bf2a7a0837d6 data/minecraft/tags/item/head_armor.json
+d3bc16b9900d5d2abe248300833ba905c2aa938e data/minecraft/tags/item/hoes.json
+803a58d2211ac7ff13b186b8acbf8502951ebe05 data/minecraft/tags/item/leg_armor.json
+4b7d2801721a7765a44ab8f9b6f0a941d734e011 data/minecraft/tags/item/pickaxes.json
+79b7325af7c016b7c04bcbb572b5e91fdd2f968b data/minecraft/tags/item/shovels.json
+c885806dff88b122f7aba6d38af25146d24d8733 data/minecraft/tags/item/swords.json
+44d3767a5a2d486a9ad02552ee4d5f0ccfe0cd2e data/minecraft/tags/item/trimmable_armor.json
+e0c7747ec3171031931451db2ab29bc0808c5d27 data/minecraft/tags/item/trim_materials.json

@@ -1,0 +1,142 @@
+{
+  "item.gemsoresmod.ruby": "Ruby",
+  "item.gemsoresmod.sapphire": "Sapphire",
+  "item.gemsoresmod.topaz": "Topaz",
+  "item.gemsoresmod.charoite": "Charoite",
+  "item.gemsoresmod.enderite": "Enderite",
+  "item.gemsoresmod.prism": "Prism",
+  "item.gemsoresmod.topaz_nugget": "Topaz Nugget",
+  "item.gemsoresmod.coal_nugget": "Coal Nugget",
+  "item.gemsoresmod.lapis_nugget": "Lapis Nugget",
+  "item.gemsoresmod.diamond_nugget": "Diamond Nugget",
+  "item.gemsoresmod.copper_nugget": "Copper Nugget",
+
+
+  "block.gemsoresmod.ruby_block": "Ruby of Block",
+  "block.gemsoresmod.ruby_ore": "Ruby Ore",
+  "block.gemsoresmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.gemsoresmod.sapphire_block": "Sapphire of Block",
+  "block.gemsoresmod.sapphire_ore": "Sapphire Ore",
+  "block.gemsoresmod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.gemsoresmod.topaz_block": "Topaz of Block",
+  "block.gemsoresmod.topaz_ore": "Topaz Ore",
+  "block.gemsoresmod.deepslate_topaz_ore": "Deepslate Topaz Ore",
+  "block.gemsoresmod.nether_topaz_ore": "Nether Topaz Ore",
+  "block.gemsoresmod.nether_coal_ore": "Nether Coal Ore",
+  "block.gemsoresmod.nether_iron_ore": "Nether Iron Ore",
+  "block.gemsoresmod.nether_lapis_ore": "Nether Lapis Ore",
+  "block.gemsoresmod.nether_redstone_ore": "Nether Redstone Ore",
+  "block.gemsoresmod.nether_diamond_ore": "Nether Diamond Ore",
+  "block.gemsoresmod.nether_copper_ore": "Nether Copper Ore",
+  "block.gemsoresmod.charoite_block": "Charoite Block",
+  "block.gemsoresmod.enderite_block": "Enderite Block",
+  "block.gemsoresmod.nether_charoite_ore": "Nether Charoite Ore",
+  "block.gemsoresmod.end_charoite_ore": "Nether Charoite Ore",
+  "block.gemsoresmod.prism_block": "Prism Block",
+
+
+  "item.gemsoresmod.ruby_sword": "Ruby Sword",
+  "item.gemsoresmod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.gemsoresmod.ruby_shovel": "Ruby Shovel",
+  "item.gemsoresmod.ruby_axe": "Ruby Axe",
+  "item.gemsoresmod.ruby_hoe": "Ruby Hoe",
+
+  "item.gemsoresmod.topaz_sword": "Topaz Sword",
+  "item.gemsoresmod.topaz_pickaxe": "Topaz Pickaxe",
+  "item.gemsoresmod.topaz_shovel": "Topaz Shovel",
+  "item.gemsoresmod.topaz_axe": "Topaz Axe",
+  "item.gemsoresmod.topaz_hoe": "Topaz Hoe",
+
+  "item.gemsoresmod.sapphire_sword": "Sapphire Sword",
+  "item.gemsoresmod.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.gemsoresmod.sapphire_shovel": "Sapphire Shovel",
+  "item.gemsoresmod.sapphire_axe": "Sapphire Axe",
+  "item.gemsoresmod.sapphire_hoe": "Sapphire Hoe",
+
+  "item.gemsoresmod.charoite_sword": "Charoite Sword",
+  "item.gemsoresmod.charoite_pickaxe": "Charoite Pickaxe",
+  "item.gemsoresmod.charoite_shovel": "Charoite Shovel",
+  "item.gemsoresmod.charoite_axe": "Charoite Axe",
+  "item.gemsoresmod.charoite_hoe": "Charoite Hoe",
+
+  "item.gemsoresmod.enderite_sword": "Enderite Sword",
+  "item.gemsoresmod.enderite_pickaxe": "Enderite Pickaxe",
+  "item.gemsoresmod.enderite_shovel": "Enderite Shovel",
+  "item.gemsoresmod.enderite_axe": "Enderite Axe",
+  "item.gemsoresmod.enderite_hoe": "Enderite Hoe",
+
+  "item.gemsoresmod.prism_sword": "Prism Sword",
+  "item.gemsoresmod.prism_pickaxe": "Prism Pickaxe",
+  "item.gemsoresmod.prism_shovel": "Prism Shovel",
+  "item.gemsoresmod.prism_axe": "Prism Axe",
+  "item.gemsoresmod.prism_hoe": "Prism Hoe",
+
+
+  "item.gemsoresmod.ruby_helmet": "Ruby Helmet",
+  "item.gemsoresmod.ruby_chestplate": "Ruby Chestplate",
+  "item.gemsoresmod.ruby_leggings": "Ruby Leggings",
+  "item.gemsoresmod.ruby_boots": "Ruby Boots",
+
+  "item.gemsoresmod.topaz_helmet": "Topaz Helmet",
+  "item.gemsoresmod.topaz_chestplate": "Topaz Chestplate",
+  "item.gemsoresmod.topaz_leggings": "Topaz Leggings",
+  "item.gemsoresmod.topaz_boots": "Topaz Boots",
+
+  "item.gemsoresmod.sapphire_helmet": "Sapphire Helmet",
+  "item.gemsoresmod.sapphire_chestplate": "Sapphire Chestplate",
+  "item.gemsoresmod.sapphire_leggings": "Sapphire Leggings",
+  "item.gemsoresmod.sapphire_boots": "Sapphire Boots",
+
+  "item.gemsoresmod.charoite_helmet": "Charoite Helmet",
+  "item.gemsoresmod.charoite_chestplate": "Charoite Chestplate",
+  "item.gemsoresmod.charoite_leggings": "Charoite Leggings",
+  "item.gemsoresmod.charoite_boots": "Charoite Boots",
+
+  "item.gemsoresmod.enderite_helmet": "Enderite Helmet",
+  "item.gemsoresmod.enderite_chestplate": "Enderite Chestplate",
+  "item.gemsoresmod.enderite_leggings": "Enderite Leggings",
+  "item.gemsoresmod.enderite_boots": "Enderite Boots",
+
+  "item.gemsoresmod.prism_helmet": "Prism Helmet",
+  "item.gemsoresmod.prism_chestplate": "Prism Chestplate",
+  "item.gemsoresmod.prism_leggings": "Prism Leggings",
+  "item.gemsoresmod.prism_boots": "Prism Boots",
+
+
+  "item.gemsoresmod.ruby_horse_armor": "Ruby Horse Armor",
+  "item.gemsoresmod.topaz_horse_armor": "Topaz Horse Armor",
+  "item.gemsoresmod.sapphire_horse_armor": "Sapphire Horse Armor",
+  "item.gemsoresmod.charoite_horse_armor": "Charoite Horse Armor",
+  "item.gemsoresmod.enderite_horse_armor": "Enderite Horse Armor",
+  "item.gemsoresmod.prism_horse_armor": "Prism Horse Armor",
+
+
+  "trim_material.gemsoresmod.ruby": "Ruby Material",
+  "trim_material.gemsoresmod.sapphire": "Sapphire Material",
+  "trim_material.gemsoresmod.topaz": "Topaz Material",
+  "trim_material.gemsoresmod.charoite": "Charoite Material",
+  "trim_material.gemsoresmod.enderite": "Enderite Material",
+  "trim_material.gemsoresmod.prism": "Prism Material",
+
+
+  "item.gemsoresmod.charoite_upgrade_smithing_template": "Smithing Template",
+  "item.gemsoresmod.smithing_template.charoite_upgrade.applies_to": "Netherite Equipment",
+  "upgrade.gemsoresmod.charoite_upgrade": "Charoite Upgrade",
+  "item.gemsoresmod.smithing_template.charoite_upgrade.ingredients": "Charoite",
+  "item.gemsoresmod.smithing_template.charoite_upgrade.base_slot_description": "Add netherite armor, weapon, or tool",
+  "item.gemsoresmod.smithing_template.charoite_upgrade.additions_slot_description": "Add Charoite",
+
+  "item.gemsoresmod.enderite_upgrade_smithing_template": "Smithing Template",
+  "item.gemsoresmod.smithing_template.enderite_upgrade.applies_to": "Charoite Equipment",
+  "upgrade.gemsoresmod.enderite_upgrade": "Enderite Upgrade",
+  "item.gemsoresmod.smithing_template.enderite_upgrade.ingredients": "Enderite",
+  "item.gemsoresmod.smithing_template.enderite_upgrade.base_slot_description": "Add Charoite armor, weapon, or tool",
+  "item.gemsoresmod.smithing_template.enderite_upgrade.additions_slot_description": "Add Enderite",
+
+  "item.gemsoresmod.prism_upgrade_smithing_template": "Smithing Template",
+  "item.gemsoresmod.smithing_template.prism_upgrade.applies_to": "Enderite Equipment",
+  "upgrade.gemsoresmod.prism_upgrade": "Prism Upgrade",
+  "item.gemsoresmod.smithing_template.prism_upgrade.ingredients": "Prism",
+  "item.gemsoresmod.smithing_template.prism_upgrade.base_slot_description": "Add Enderite armor, weapon, or tool",
+  "item.gemsoresmod.smithing_template.prism_upgrade.additions_slot_description": "Add Prism"
+}

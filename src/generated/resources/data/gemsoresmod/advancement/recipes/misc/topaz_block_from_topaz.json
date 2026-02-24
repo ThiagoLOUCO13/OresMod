@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "gemsoresmod:topaz_block_from_topaz"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_topaz": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gemsoresmod:topaz"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_topaz"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "gemsoresmod:topaz_block_from_topaz"
+    ]
+  }
+}

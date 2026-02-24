@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "gemsoresmod:prism"
+  },
+  "base": {
+    "item": "gemsoresmod:enderite_shovel"
+  },
+  "result": {
+    "count": 1,
+    "id": "gemsoresmod:prism_shovel"
+  },
+  "template": {
+    "item": "gemsoresmod:prism_upgrade_smithing_template"
+  }
+}

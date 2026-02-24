@@ -1,0 +1,25 @@
+{
+  "values": [
+    "gemsoresmod:ruby_block",
+    "gemsoresmod:sapphire_block",
+    "gemsoresmod:topaz_block",
+    "gemsoresmod:ruby_ore",
+    "gemsoresmod:charoite_block",
+    "gemsoresmod:sapphire_ore",
+    "gemsoresmod:topaz_ore",
+    "gemsoresmod:deepslate_ruby_ore",
+    "gemsoresmod:deepslate_sapphire_ore",
+    "gemsoresmod:deepslate_topaz_ore",
+    "gemsoresmod:nether_topaz_ore",
+    "gemsoresmod:nether_diamond_ore",
+    "gemsoresmod:nether_redstone_ore",
+    "gemsoresmod:nether_iron_ore",
+    "gemsoresmod:nether_coal_ore",
+    "gemsoresmod:nether_lapis_ore",
+    "gemsoresmod:nether_copper_ore",
+    "gemsoresmod:nether_charoite_ore",
+    "gemsoresmod:end_charoite_ore",
+    "gemsoresmod:prism_block",
+    "gemsoresmod:enderite_block"
+  ]
+}

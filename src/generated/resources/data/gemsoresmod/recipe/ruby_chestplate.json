@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "gemsoresmod:ruby"
+    }
+  },
+  "pattern": [
+    "R R",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "gemsoresmod:ruby_chestplate"
+  }
+}

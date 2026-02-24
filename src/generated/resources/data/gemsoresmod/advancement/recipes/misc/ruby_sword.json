@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "haS_ruby_Sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gemsoresmod:ruby"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "gemsoresmod:ruby_sword"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "haS_ruby_Sword"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "gemsoresmod:ruby_sword"
+    ]
+  }
+}
