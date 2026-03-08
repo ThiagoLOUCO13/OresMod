@@ -19,8 +19,8 @@ public class ModToolTiers {
             2132, 12f, 7f, 14, () -> Ingredient.of(ModItems.CHAROITE));
 
     public static final Tier ENDERITE = new SimpleTier(ModTags.Blocks.INCORRECT_FOR_ENDERITE_TOOL,
-            3168, 18f, 12f, 9, () -> Ingredient.of(ModItems.ENDERITE));
+            3168, 18f, 14f, 9, () -> Ingredient.of(ModItems.ENDERITE));
 
     public static final Tier PRISM = new SimpleTier(ModTags.Blocks.INCORRECT_FOR_PRISM_TOOL,
-            4041, 26f, 19f, 10, () -> Ingredient.of(ModItems.PRISM));
+            4041, 36f, 28f, 10, () -> Ingredient.of(ModItems.PRISM));
 }

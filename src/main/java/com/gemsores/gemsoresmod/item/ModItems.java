@@ -35,7 +35,7 @@ public class ModItems {
     public static final DeferredItem<Item> ENDERITE = ITEMS.register("enderite",
             () -> new Item(new Item.Properties().fireResistant()));
     public static final DeferredItem<Item> PRISM = ITEMS.register("prism",
-            () -> new Item(new Item.Properties().fireResistant()));
+            () -> new Item(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final DeferredItem<Item> TOPAZ_NUGGET = ITEMS.register("topaz_nugget",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> COAL_NUGGET = ITEMS.register("coal_nugget",
@@ -126,23 +126,23 @@ public class ModItems {
                     .attributes(AxeItem.createAttributes(ModToolTiers.ENDERITE, 5.5F, -3f))));
     public static final DeferredItem<HoeItem> ENDERITE_HOE = ITEMS.register("enderite_hoe",
             () -> new HoeItem(ModToolTiers.ENDERITE, new Item.Properties().fireResistant()
-                    .attributes(HoeItem.createAttributes(ModToolTiers.ENDERITE, -12F, 0f))));
+                    .attributes(HoeItem.createAttributes(ModToolTiers.ENDERITE, -14F, 0f))));
 
     public static final DeferredItem<SwordItem> PRISM_SWORD = ITEMS.register("prism_sword",
             () -> new SwordItem(ModToolTiers.PRISM, new Item.Properties().fireResistant()
-                    .attributes(SwordItem.createAttributes(ModToolTiers.PRISM, 3, -2.4F))));
+                    .attributes(SwordItem.createAttributes(ModToolTiers.PRISM, 3, -2.4F)).rarity(Rarity.EPIC)));
     public static final DeferredItem<PickaxeItem> PRISM_PICKAXE = ITEMS.register("prism_pickaxe",
             () -> new PickaxeItem(ModToolTiers.PRISM, new Item.Properties().fireResistant()
-                    .attributes(PickaxeItem.createAttributes(ModToolTiers.PRISM, 1.0F, -2.8f))));
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.PRISM, 1.0F, -2.8f)).rarity(Rarity.EPIC)));
     public static final DeferredItem<ShovelItem> PRISM_SHOVEL = ITEMS.register("prism_shovel",
             () -> new ShovelItem(ModToolTiers.PRISM, new Item.Properties().fireResistant()
-                    .attributes(ShovelItem.createAttributes(ModToolTiers.PRISM, 1.5F, -3.0f))));
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.PRISM, 1.5F, -3.0f)).rarity(Rarity.EPIC)));
     public static final DeferredItem<AxeItem> PRISM_AXE = ITEMS.register("prism_axe",
             () -> new AxeItem(ModToolTiers.PRISM, new Item.Properties().fireResistant()
-                    .attributes(AxeItem.createAttributes(ModToolTiers.PRISM, 5.5F, -3f))));
+                    .attributes(AxeItem.createAttributes(ModToolTiers.PRISM, 5.5F, -3f)).rarity(Rarity.EPIC)));
     public static final DeferredItem<HoeItem> PRISM_HOE = ITEMS.register("prism_hoe",
             () -> new HoeItem(ModToolTiers.PRISM, new Item.Properties().fireResistant()
-                    .attributes(HoeItem.createAttributes(ModToolTiers.PRISM, -19F, 0f))));
+                    .attributes(HoeItem.createAttributes(ModToolTiers.PRISM, -28F, 0f)).rarity(Rarity.EPIC)));
 
     //armor
     public static final DeferredItem<ArmorItem> RUBY_HELMET = ITEMS.register("ruby_helmet",
@@ -212,16 +212,16 @@ public class ModItems {
 
     public static final DeferredItem<ArmorItem> PRISM_HELMET = ITEMS.register("prism_helmet",
             () -> new ArmorItem(ModArmorMaterials.PRISM_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
-                    new Item.Properties().fireResistant().durability(ArmorItem.Type.HELMET.getDurability(65))));
+                    new Item.Properties().fireResistant().durability(ArmorItem.Type.HELMET.getDurability(65)).rarity(Rarity.EPIC)));
     public static final DeferredItem<ArmorItem> PRISM_CHESTPLATE = ITEMS.register("prism_chestplate",
             () -> new ArmorItem(ModArmorMaterials.PRISM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
-                    new Item.Properties().fireResistant().durability(ArmorItem.Type.CHESTPLATE.getDurability(65))));
+                    new Item.Properties().fireResistant().durability(ArmorItem.Type.CHESTPLATE.getDurability(65)).rarity(Rarity.EPIC)));
     public static final DeferredItem<ArmorItem> PRISM_LEGGINGS = ITEMS.register("prism_leggings",
             () -> new ArmorItem(ModArmorMaterials.PRISM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
-                    new Item.Properties().fireResistant().durability(ArmorItem.Type.LEGGINGS.getDurability(65))));
+                    new Item.Properties().fireResistant().durability(ArmorItem.Type.LEGGINGS.getDurability(65)).rarity(Rarity.EPIC)));
     public static final DeferredItem<ArmorItem> PRISM_BOOTS = ITEMS.register("prism_boots",
             () -> new ArmorItem(ModArmorMaterials.PRISM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
-                    new Item.Properties().fireResistant().durability(ArmorItem.Type.BOOTS.getDurability(65))));
+                    new Item.Properties().fireResistant().durability(ArmorItem.Type.BOOTS.getDurability(65)).rarity(Rarity.EPIC)));
 
     //horse armmor
     public static final DeferredItem<Item> RUBY_HORSE_ARMOR = ITEMS.register("ruby_horse_armor",
@@ -246,7 +246,7 @@ public class ModItems {
 
     public static final DeferredItem<Item> PRISM_HORSE_ARMOR = ITEMS.register("prism_horse_armor",
             () -> new AnimalArmorItem(ModArmorMaterials.PRISM_ARMOR_MATERIAL, AnimalArmorItem.BodyType.EQUESTRIAN,
-                    false, new Item.Properties().stacksTo(1).fireResistant()));
+                    false, new Item.Properties().stacksTo(1).fireResistant().rarity(Rarity.EPIC)));
 
     //tamplete:
     public static final DeferredItem<Item> CHAROITE_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("charoite_upgrade_smithing_template", () -> new SmithingTemplateItem(
