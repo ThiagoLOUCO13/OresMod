@@ -30,6 +30,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> TOPAZ = ITEMS.register("topaz",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> AQUAMARINE = ITEMS.register("aquamarine",
+            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CHAROITE = ITEMS.register("charoite",
             () -> new Item(new Item.Properties().fireResistant()));
     public static final DeferredItem<Item> ENDERITE = ITEMS.register("enderite",
@@ -79,6 +81,22 @@ public class ModItems {
     public static final DeferredItem<HoeItem> TOPAZ_HOE = ITEMS.register("topaz_hoe",
             () -> new HoeItem(ModToolTiers.TOPAZ, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.TOPAZ, -1.5F, 0f))));
+
+    public static final DeferredItem<SwordItem> EMERALD_SWORD = ITEMS.register("emerald_sword",
+            () -> new SwordItem(ModToolTiers.EMERALD, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.EMERALD, 4, -2.4F))));
+    public static final DeferredItem<PickaxeItem> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.EMERALD, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.EMERALD, 2F, -2.8f))));
+    public static final DeferredItem<ShovelItem> EMERALD_SHOVEL = ITEMS.register("emerald_shovel",
+            () -> new ShovelItem(ModToolTiers.EMERALD, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.EMERALD, 2.5F, -3.0f))));
+    public static final DeferredItem<AxeItem> EMERALD_AXE = ITEMS.register("emerald_axe",
+            () -> new AxeItem(ModToolTiers.EMERALD, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.EMERALD, 6.5F, -3f))));
+    public static final DeferredItem<HoeItem> EMERALD_HOE = ITEMS.register("emerald_hoe",
+            () -> new HoeItem(ModToolTiers.EMERALD, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.EMERALD, -1.5F, 0f))));
 
     public static final DeferredItem<SwordItem> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
             () -> new SwordItem(ModToolTiers.SAPPHIRE, new Item.Properties()
@@ -171,6 +189,19 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.TOPAZ_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(24))));
 
+    public static final DeferredItem<ArmorItem> EMERALD_HELMET = ITEMS.register("emerald_helmet",
+            () -> new ArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(24))));
+    public static final DeferredItem<ArmorItem> EMERALD_CHESTPLATE = ITEMS.register("emerald_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(24))));
+    public static final DeferredItem<ArmorItem> EMERALD_LEGGINGS = ITEMS.register("emerald_leggings",
+            () -> new ArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(24))));
+    public static final DeferredItem<ArmorItem> EMERALD_BOOTS = ITEMS.register("emerald_boots",
+            () -> new ArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(24))));
+
     public static final DeferredItem<ArmorItem> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
             () -> new ArmorItem(ModArmorMaterials.SAPPHIRE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
                     new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(26))));
@@ -230,6 +261,10 @@ public class ModItems {
 
     public static final DeferredItem<Item> TOPAZ_HORSE_ARMOR = ITEMS.register("topaz_horse_armor",
             () -> new AnimalArmorItem(ModArmorMaterials.TOPAZ_ARMOR_MATERIAL, AnimalArmorItem.BodyType.EQUESTRIAN,
+                    false, new Item.Properties().stacksTo(1)));
+
+    public static final DeferredItem<Item> EMERALD_HORSE_ARMOR = ITEMS.register("emerald_horse_armor",
+            () -> new AnimalArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, AnimalArmorItem.BodyType.EQUESTRIAN,
                     false, new Item.Properties().stacksTo(1)));
 
     public static final DeferredItem<Item> SAPPHIRE_HORSE_ARMOR = ITEMS.register("sapphire_horse_armor",

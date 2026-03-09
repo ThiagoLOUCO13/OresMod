@@ -1,18 +1,20 @@
-// 1.21.1	2026-02-22T22:44:53.2864069	Tags for minecraft:block mod id gemsoresmod
+// 1.21.1	2026-03-08T22:18:02.9930974	Tags for minecraft:block mod id gemsoresmod
 b53d7c2d028b5bdef07e1028697119e5c9451629 data/gemsoresmod/tags/block/incorrect_for_charoite_tool.json
+a703f6d883e823a8efabae15715c334c9c7ed1ba data/gemsoresmod/tags/block/incorrect_for_emerald_tool.json
 86eedca8fb3b7306d349886ebc128633919e2c1b data/gemsoresmod/tags/block/incorrect_for_enderite_tool.json
 043929ed3f6a381fc279d260c14ca30a4e76bd2b data/gemsoresmod/tags/block/incorrect_for_prism_tool.json
 ee5cd030ae72a73a2b282771f20c4f5316f86055 data/gemsoresmod/tags/block/incorrect_for_ruby_tool.json
 1fb5beb72ba46e4b9e97cae16f246e562929a616 data/gemsoresmod/tags/block/incorrect_for_sapphire_tool.json
 fac83037fc3bd5c73b39a7b0e224a0566bed3818 data/gemsoresmod/tags/block/incorrect_for_topaz_tool.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data/gemsoresmod/tags/block/needs_charoite_tool.json
+32b13946c4cd1f944b029659ccce5fcb2adad4ff data/gemsoresmod/tags/block/needs_emerald_tool.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data/gemsoresmod/tags/block/needs_enderite_tool.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data/gemsoresmod/tags/block/needs_prism_tool.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data/gemsoresmod/tags/block/needs_ruby_tool.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data/gemsoresmod/tags/block/needs_sapphire_tool.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data/gemsoresmod/tags/block/needs_topaz_tool.json
-1dc75155af2e15e340ba4d13997f1a6b1608dadd data/minecraft/tags/block/beacon_base_blocks.json
-34e0e8a220f9ec8e06cac595fea88d7375a10511 data/minecraft/tags/block/mineable/pickaxe.json
+ae2574c759219deed9293c489cf2b27d694efb0f data/minecraft/tags/block/beacon_base_blocks.json
+e9ba183ca23fd8bbe5dfd0041cf7d090f09848e4 data/minecraft/tags/block/mineable/pickaxe.json
 2f80cc678c3b32921f32cf041887012526ebde29 data/minecraft/tags/block/needs_diamond_tool.json
-985e4b667595300fad05c354827ee9fc66a83613 data/minecraft/tags/block/needs_iron_tool.json
+0befdb3c2d7ed49d9a41ecbe6ee56737ae7ceb1d data/minecraft/tags/block/needs_iron_tool.json
 05abff8c41cfe4229e565ad1d784045c76c55556 data/minecraft/tags/block/needs_stone_tool.json

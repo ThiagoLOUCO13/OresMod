@@ -29,6 +29,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 ModBlock.RUBY_ORE, ModBlock.DEEPSLATE_RUBY_ORE);
         List<ItemLike> SAPPHIRE_SMELTABLES = List.of(
                 ModBlock.SAPPHIRE_ORE, ModBlock.DEEPSLATE_SAPPHIRE_ORE);
+        List<ItemLike> AQUAMARINE_SMELTABLES = List.of(
+                ModBlock.AQUAMARINE_ORE, ModBlock.DEEPSLATE_AQUAMARINE_ORE);
         List<ItemLike> TOPAZ_SMELTABLES = List.of(
                 ModBlock.TOPAZ_ORE, ModBlock.DEEPSLATE_TOPAZ_ORE, ModBlock.NETHER_TOPAZ_ORE);
         List<ItemLike> IRON_SMELTABLES = List.of(
@@ -61,6 +63,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("SSS")
                 .define('S', ModItems.SAPPHIRE.get())
                 .unlockedBy("has_sapphire", has(ModItems.SAPPHIRE)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlock.AQUAMARINE_BLOCK.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.AQUAMARINE.get())
+                .unlockedBy("has_aquamarine", has(ModItems.AQUAMARINE)).save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlock.CHAROITE_BLOCK.get())
                 .pattern("CCC")
@@ -164,6 +173,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModBlock.SAPPHIRE_BLOCK)
                 .unlockedBy("has_sapphire_block", has(ModBlock.SAPPHIRE_BLOCK)).save(recipeOutput);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.AQUAMARINE.get(), 9)
+                .requires(ModBlock.AQUAMARINE_BLOCK)
+                .unlockedBy("has_aquamarine_block", has(ModBlock.AQUAMARINE_BLOCK)).save(recipeOutput);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.TOPAZ.get(), 9)
                 .requires(ModBlock.TOPAZ_BLOCK)
                 .unlockedBy("has_topaz_block", has(ModBlock.TOPAZ_BLOCK)).save(recipeOutput);
@@ -214,6 +227,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         oreSmelting(recipeOutput, TOPAZ_SMELTABLES, RecipeCategory.MISC, ModItems.TOPAZ.get(),0.25f, 200, "topaz");
         oreBlasting(recipeOutput, TOPAZ_SMELTABLES, RecipeCategory.MISC, ModItems.TOPAZ.get(),0.25f, 100, "topaz");
+
+        oreSmelting(recipeOutput, AQUAMARINE_SMELTABLES, RecipeCategory.MISC, ModItems.AQUAMARINE.get(),0.25f, 200, "aquamarine");
+        oreBlasting(recipeOutput, AQUAMARINE_SMELTABLES, RecipeCategory.MISC, ModItems.AQUAMARINE.get(),0.25f, 100, "aquamarine");
 
         oreSmelting(recipeOutput, CHAROITE_SMELTABLES, RecipeCategory.MISC, ModItems.CHAROITE.get(),0.25f, 200, "charoite");
         oreBlasting(recipeOutput, CHAROITE_SMELTABLES, RecipeCategory.MISC, ModItems.CHAROITE.get(),0.25f, 100, "charoite");
@@ -293,6 +309,35 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("   ")
                 .define('T', ModItems.TOPAZ.get())
                 .unlockedBy("has_topaz_boots", has(ModItems.TOPAZ))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_HELMET.get())
+                .pattern("EEE")
+                .pattern("E E")
+                .pattern("   ")
+                .define('E', Items.EMERALD)
+                .unlockedBy("has_emerald_helemt", has(Items.EMERALD))
+                .save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_CHESTPLATE.get())
+                .pattern("E E")
+                .pattern("EEE")
+                .pattern("EEE")
+                .define('E', Items.EMERALD)
+                .unlockedBy("has_emerald_chestplate", has(Items.EMERALD))
+                .save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_LEGGINGS.get())
+                .pattern("EEE")
+                .pattern("E E")
+                .pattern("E E")
+                .define('E', Items.EMERALD)
+                .unlockedBy("has_emerald_legging", has(Items.EMERALD))
+                .save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_BOOTS.get())
+                .pattern("E E")
+                .pattern("E E")
+                .pattern("   ")
+                .define('E', Items.EMERALD)
+                .unlockedBy("has_emerald_boots", has(Items.EMERALD))
                 .save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SAPPHIRE_HELMET.get())
@@ -405,6 +450,47 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('T', ModItems.TOPAZ.get())
                 .define('S', Items.STICK)
                 .unlockedBy("has_topaz_hoe", has(ModItems.TOPAZ))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_SWORD.get())
+                .pattern(" E ")
+                .pattern(" E ")
+                .pattern(" S ")
+                .define('E', Items.EMERALD)
+                .define('S', Items.STICK)
+                .unlockedBy("has_emerald_Sword", has(Items.EMERALD))
+                .save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_PICKAXE.get())
+                .pattern("EEE")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('E', Items.EMERALD)
+                .define('S', Items.STICK)
+                .unlockedBy("has_emerald_pickaxe", has(Items.EMERALD))
+                .save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_SHOVEL.get())
+                .pattern(" E ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('E', Items.EMERALD)
+                .define('S', Items.STICK)
+                .unlockedBy("has_emerald_Shovel", has(Items.EMERALD))
+                .save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_AXE.get())
+                .pattern(" EE")
+                .pattern(" SE")
+                .pattern(" S ")
+                .define('E', Items.EMERALD)
+                .define('S', Items.STICK)
+                .unlockedBy("has_emerald_axe", has(Items.EMERALD))
+                .save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_HOE.get())
+                .pattern("EE ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('E', Items.EMERALD)
+                .define('S', Items.STICK)
+                .unlockedBy("has_emerald_hoe", has(Items.EMERALD))
                 .save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SAPPHIRE_SWORD.get())

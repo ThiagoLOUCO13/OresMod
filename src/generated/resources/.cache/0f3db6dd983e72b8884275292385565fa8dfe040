@@ -1,14 +1,14 @@
-// 1.21.1	2026-02-23T16:04:37.4049439	Tags for minecraft:item mod id gemsoresmod
-e0c7747ec3171031931451db2ab29bc0808c5d27 data/c/tags/item/gems.json
-ff97a3dd0117557d81ecaf882f43c1b615c966a3 data/minecraft/tags/item/axes.json
-c70beb5d69e99657532c33c977519fd89f51cad9 data/minecraft/tags/item/beacon_payment_items.json
-b78de828873ba952556da522ed656f2f412df9a7 data/minecraft/tags/item/chest_armor.json
-c828fc3dc14f689d48dd85c1a18346a277717bd0 data/minecraft/tags/item/foot_armor.json
-3173f4e0ade6c3ccd98aba505cf8bf2a7a0837d6 data/minecraft/tags/item/head_armor.json
-d3bc16b9900d5d2abe248300833ba905c2aa938e data/minecraft/tags/item/hoes.json
-803a58d2211ac7ff13b186b8acbf8502951ebe05 data/minecraft/tags/item/leg_armor.json
-4b7d2801721a7765a44ab8f9b6f0a941d734e011 data/minecraft/tags/item/pickaxes.json
-79b7325af7c016b7c04bcbb572b5e91fdd2f968b data/minecraft/tags/item/shovels.json
-c885806dff88b122f7aba6d38af25146d24d8733 data/minecraft/tags/item/swords.json
-44d3767a5a2d486a9ad02552ee4d5f0ccfe0cd2e data/minecraft/tags/item/trimmable_armor.json
-e0c7747ec3171031931451db2ab29bc0808c5d27 data/minecraft/tags/item/trim_materials.json
+// 1.21.1	2026-03-08T22:18:02.9920937	Tags for minecraft:item mod id gemsoresmod
+46e3ad97f76ae46a0b1125b9fd315017d1e36bc2 data/c/tags/item/gems.json
+d566959dd2e89608935fb0d0be96f6dbf530d1d2 data/minecraft/tags/item/axes.json
+6a4eabe0570092d39092b2158d4ee4f598850598 data/minecraft/tags/item/beacon_payment_items.json
+31f8bf278a42457a6bda0c2ab34004d3cdf30677 data/minecraft/tags/item/chest_armor.json
+81c58c7098f8b014df1066d5260d1e1191118275 data/minecraft/tags/item/foot_armor.json
+a8021eb68638ddc103fd08f8295904e6bef77d9b data/minecraft/tags/item/head_armor.json
+0d75f8d0d33f1525d4a55a2676e344c8b94780ca data/minecraft/tags/item/hoes.json
+d18578882025aff2c085ed68810cd2933758f04f data/minecraft/tags/item/leg_armor.json
+fda56c98776545e4ae6116e7c07517535dd5b777 data/minecraft/tags/item/pickaxes.json
+5d77a68c8eed6e7642b0b1a89b5e8451119ac064 data/minecraft/tags/item/shovels.json
+9114699f1fb63e5c7125eb6d25f29a9840172191 data/minecraft/tags/item/swords.json
+cab51d42a05a1f342f461da3954eaa62ab57b483 data/minecraft/tags/item/trimmable_armor.json
+46e3ad97f76ae46a0b1125b9fd315017d1e36bc2 data/minecraft/tags/item/trim_materials.json

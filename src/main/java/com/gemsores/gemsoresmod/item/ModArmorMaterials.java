@@ -11,6 +11,7 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.EnumMap;
@@ -34,6 +35,14 @@ public class ModArmorMaterials {
                 attribute.put(ArmorItem.Type.HELMET, 3);
                 attribute.put(ArmorItem.Type.BODY, 7);
             }), 10, 1.0F, 0.0F, () -> ModItems.TOPAZ.get());
+    public static final Holder<ArmorMaterial> EMERALD_ARMOR_MATERIAL = register("emerald",
+            Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
+                attribute.put(ArmorItem.Type.BOOTS, 3);
+                attribute.put(ArmorItem.Type.LEGGINGS, 5);
+                attribute.put(ArmorItem.Type.CHESTPLATE, 6);
+                attribute.put(ArmorItem.Type.HELMET, 3);
+                attribute.put(ArmorItem.Type.BODY, 7);
+            }), 6, 0.0F, 0.0F, () -> Items.EMERALD);
     public static final Holder<ArmorMaterial> SAPPHIRE_ARMOR_MATERIAL = register("sapphire",
             Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
                 attribute.put(ArmorItem.Type.BOOTS, 3);

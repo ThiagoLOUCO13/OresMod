@@ -2,6 +2,7 @@
   "item.gemsoresmod.ruby": "Rubi",
   "item.gemsoresmod.sapphire": "Safira",
   "item.gemsoresmod.topaz": "Topázio",
+  "item.gemsoresmod.aquamarine": "Água-Marinha",
   "item.gemsoresmod.charoite": "Charoíta",
   "item.gemsoresmod.enderite": "Enderite",
   "item.gemsoresmod.prism": "Prisma",
@@ -21,6 +22,9 @@
   "block.gemsoresmod.topaz_block": "Bloco de Topázio",
   "block.gemsoresmod.topaz_ore": "Minério de Topázio",
   "block.gemsoresmod.deepslate_topaz_ore": "Minério de Topázio de Ardosiabissal",
+  "block.gemsoresmod.aquamarine_block": "Bloco de Água-Marinha",
+  "block.gemsoresmod.aquamarine_ore": "Minério de Água-Marinha",
+  "block.gemsoresmod.deepslate_aquamarine_ore": "Minério de Água-Marinha de Ardosiabissal",
   "block.gemsoresmod.nether_topaz_ore": "Minério de Topázio do Nether",
   "block.gemsoresmod.nether_coal_ore": "Minério de Carvão do Nether",
   "block.gemsoresmod.nether_iron_ore": "Minério de Ferro do Nether",
@@ -46,6 +50,12 @@
   "item.gemsoresmod.topaz_shovel": "Pá de Topázio",
   "item.gemsoresmod.topaz_axe": "Machado de Topázio",
   "item.gemsoresmod.topaz_hoe": "Inchada de Topázio",
+
+  "item.gemsoresmod.emerald_sword": "Espada de Esmeralda",
+  "item.gemsoresmod.emerald_pickaxe": "Picareta de Esmeralda",
+  "item.gemsoresmod.emerald_shovel": "Pá de Esmeralda",
+  "item.gemsoresmod.emerald_axe": "Machado de Esmeralda",
+  "item.gemsoresmod.emerald_hoe": "Inchada de Esmeralda",
 
   "item.gemsoresmod.sapphire_sword": "Espada de Safira",
   "item.gemsoresmod.sapphire_pickaxe": "Picareta de Safira",
@@ -82,6 +92,11 @@
   "item.gemsoresmod.topaz_leggings": "Calça de Topázio",
   "item.gemsoresmod.topaz_boots": "Botas de Topázio",
 
+  "item.gemsoresmod.emerald_helmet": "Capacete de Esmeralda",
+  "item.gemsoresmod.emerald_chestplate": "Peitoral de Esmeralda",
+  "item.gemsoresmod.emerald_leggings": "Calça de Esmeralda",
+  "item.gemsoresmod.emerald_boots": "Botas de Esmeralda",
+
   "item.gemsoresmod.sapphire_helmet": "Capacete de Safira",
   "item.gemsoresmod.sapphire_chestplate": "Peitoral de Safira",
   "item.gemsoresmod.sapphire_leggings": "Calça de Safira",
@@ -105,6 +120,7 @@
 
   "item.gemsoresmod.ruby_horse_armor": "Armadura de Rubi para Cavalo",
   "item.gemsoresmod.topaz_horse_armor": "Armadura de Topázio para Cavalo",
+  "item.gemsoresmod.emerald_horse_armor": "Armadura de Emeralda para Cavalo",
   "item.gemsoresmod.sapphire_horse_armor": "Armadura de Safira para Cavalo",
   "item.gemsoresmod.charoite_horse_armor": "Armadura de Charoíta para Cavalo",
   "item.gemsoresmod.enderite_horse_armor": "Armadura de Enderite para Cavalo",
@@ -124,7 +140,7 @@
   "upgrade.gemsoresmod.charoite_upgrade": "Melhoria Charoíta",
   "item.gemsoresmod.smithing_template.charoite_upgrade.ingredients": "Charoíta",
   "item.gemsoresmod.smithing_template.charoite_upgrade.base_slot_description": "Adicione Armadura de netherite, Armas, ou Ferramentas",
-  "item.gemsoresmod.smithing_template.charoite_upgrade.additions_slot_description": "Adicione Charoite",
+  "item.gemsoresmod.smithing_template.charoite_upgrade.additions_slot_description": "Adicione Charoíta",
 
   "item.gemsoresmod.enderite_upgrade_smithing_template": "Molde de Ferraria",
   "item.gemsoresmod.smithing_template.enderite_upgrade.applies_to": "Equipamento de Charoíta",

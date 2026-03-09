@@ -16,6 +16,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlock.RUBY_BLOCK);
         blockWithItem(ModBlock.SAPPHIRE_BLOCK);
         blockWithItem(ModBlock.TOPAZ_BLOCK);
+        blockWithItem(ModBlock.AQUAMARINE_BLOCK);
         blockWithItem(ModBlock.CHAROITE_BLOCK);
         blockWithItem(ModBlock.ENDERITE_BLOCK);
         blockWithItem(ModBlock.PRISM_BLOCK);
@@ -23,9 +24,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlock.RUBY_ORE);
         blockWithItem(ModBlock.SAPPHIRE_ORE);
         blockWithItem(ModBlock.TOPAZ_ORE);
+        blockWithItem(ModBlock.AQUAMARINE_ORE);
         blockWithItem(ModBlock.DEEPSLATE_RUBY_ORE);
         blockWithItem(ModBlock.DEEPSLATE_SAPPHIRE_ORE);
         blockWithItem(ModBlock.DEEPSLATE_TOPAZ_ORE);
+        blockWithItem(ModBlock.DEEPSLATE_AQUAMARINE_ORE);
 
         blockWithItem(ModBlock.NETHER_TOPAZ_ORE);
         blockWithItem(ModBlock.NETHER_COAL_ORE);

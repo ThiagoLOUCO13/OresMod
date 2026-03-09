@@ -30,6 +30,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlock.RUBY_BLOCK.get());
         dropSelf(ModBlock.SAPPHIRE_BLOCK.get());
         dropSelf(ModBlock.TOPAZ_BLOCK.get());
+        dropSelf(ModBlock.AQUAMARINE_BLOCK.get());
         dropSelf(ModBlock.CHAROITE_BLOCK.get());
         dropSelf(ModBlock.ENDERITE_BLOCK.get());
         dropSelf(ModBlock.PRISM_BLOCK.get());
@@ -46,6 +47,11 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 block -> createOreDrop(ModBlock.TOPAZ_ORE.get(), ModItems.TOPAZ.get()));
         add(ModBlock.DEEPSLATE_TOPAZ_ORE.get(),
                 block -> createOreDrop(ModBlock.DEEPSLATE_TOPAZ_ORE.get(), ModItems.TOPAZ.get()));
+        add(ModBlock.AQUAMARINE_ORE.get(),
+                block -> createOreDrop(ModBlock.AQUAMARINE_ORE.get(), ModItems.AQUAMARINE.get()));
+        add(ModBlock.DEEPSLATE_AQUAMARINE_ORE.get(),
+                block -> createOreDrop(ModBlock.DEEPSLATE_AQUAMARINE_ORE.get(), ModItems.AQUAMARINE.get()));
+
         add(ModBlock.NETHER_TOPAZ_ORE.get(),
                 block -> createMultipleOreDrops(ModBlock.NETHER_TOPAZ_ORE.get(), ModItems.TOPAZ_NUGGET.get(), 3, 6));
         add(ModBlock.NETHER_IRON_ORE.get(),

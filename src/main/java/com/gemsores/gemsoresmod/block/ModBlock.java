@@ -73,6 +73,21 @@ public class ModBlock {
                     BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)),
             new Item.Properties());
 
+    public static final DeferredBlock<Block> AQUAMARINE_BLOCK = registerBlock("aquamarine_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)),
+            new Item.Properties().fireResistant());
+
+    public static final DeferredBlock<Block> AQUAMARINE_ORE = registerBlock("aquamarine_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2, 4),
+                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)),
+            new Item.Properties());
+
+    public static final DeferredBlock<Block> DEEPSLATE_AQUAMARINE_ORE = registerBlock("deepslate_aquamarine_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2, 4),
+                    BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)),
+            new Item.Properties());
+
     public static final DeferredBlock<Block> CHAROITE_BLOCK = registerBlock("charoite_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)),

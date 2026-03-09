@@ -33,6 +33,12 @@ public class ModGlobalLootModifierProvider extends GlobalLootModifierProvider {
                 LootItemRandomChanceCondition.randomChance(chance).build()
         }, new ItemStack(ModItems.TOPAZ_HORSE_ARMOR.get())));
     }
+    private void addArmorEmeraldToChest(String name, String chestPath, float chance) {
+        add(name, new AddItemModifier(new LootItemCondition[]{
+                LootTableIdCondition.builder(ResourceLocation.withDefaultNamespace("chests/" + chestPath)).build(),
+                LootItemRandomChanceCondition.randomChance(chance).build()
+        }, new ItemStack(ModItems.EMERALD_HORSE_ARMOR.get())));
+    }
     private void addArmorSapphireToChest(String name, String chestPath, float chance) {
         add(name, new AddItemModifier(new LootItemCondition[] {
                 LootTableIdCondition.builder(ResourceLocation.withDefaultNamespace("chests/" + chestPath)).build(),
@@ -98,6 +104,12 @@ public class ModGlobalLootModifierProvider extends GlobalLootModifierProvider {
         addArmorTopazToChest("topaz_armor_dungeon", "simple_dungeon", 0.133f);
         addArmorTopazToChest("topaz_armor_jungle", "jungle_temple", 0.044f);
         addArmorTopazToChest("topaz_armor_desert", "desert_pyramid", 0.116f);
+
+        addArmorEmeraldToChest("emerald_armor_bridge", "nether_bridge", 0.274f);
+        addArmorEmeraldToChest("emerald_armor_ruined", "ruined_portal", 0.073f);
+        addArmorEmeraldToChest("emerald_armor_dungeon", "simple_dungeon", 0.133f);
+        addArmorEmeraldToChest("emerald_armor_jungle", "jungle_temple", 0.044f);
+        addArmorEmeraldToChest("emerald_armor_desert", "desert_pyramid", 0.116f);
 
         addArmorCharoiteToChest("charoite_armor_bridge", "nether_bridge", 0.116f);
         addArmorCharoiteToChest("charoite_armor_end", "end_city_treasure", 0.25f);

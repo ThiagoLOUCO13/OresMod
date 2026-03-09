@@ -1,0 +1,17 @@
+{
+  "type": "gemsoresmod:add_item",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:chests/simple_dungeon"
+    },
+    {
+      "chance": 0.133,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": {
+    "count": 1,
+    "id": "gemsoresmod:emerald_horse_armor"
+  }
+}

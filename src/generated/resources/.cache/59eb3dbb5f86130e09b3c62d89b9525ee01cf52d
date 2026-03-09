@@ -1,5 +1,8 @@
-// 1.21.1	2026-02-11T22:37:53.6428206	Loot Tables
+// 1.21.1	2026-03-08T22:18:02.9940982	Loot Tables
+27f62856dd4f358ec9d74af883788c95b1b66341 data/gemsoresmod/loot_table/blocks/aquamarine_block.json
+628ececf3865c84765662d9363c3f66f6eebb7d1 data/gemsoresmod/loot_table/blocks/aquamarine_ore.json
 3749532000bf7e0c973934e18644cee076b87647 data/gemsoresmod/loot_table/blocks/charoite_block.json
+021ab022f55b942bf87356168370d95e4ba19e14 data/gemsoresmod/loot_table/blocks/deepslate_aquamarine_ore.json
 b2cb8cb4b84f084d24becb8840f3235a602ad667 data/gemsoresmod/loot_table/blocks/deepslate_ruby_ore.json
 d056c3b1fa6a41add841b07da828f9756dfdf93b data/gemsoresmod/loot_table/blocks/deepslate_sapphire_ore.json
 faafc33d53001c2cf30a53105b484e60f60e4c2e data/gemsoresmod/loot_table/blocks/deepslate_topaz_ore.json

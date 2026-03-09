@@ -68,6 +68,7 @@ public class GemsoresMod {
             event.accept(ModItems.RUBY);
             event.accept(ModItems.SAPPHIRE);
             event.accept(ModItems.TOPAZ);
+            event.accept(ModItems.AQUAMARINE);
             event.accept(ModItems.CHAROITE);
             event.accept(ModItems.ENDERITE);
             event.accept(ModItems.PRISM);
@@ -87,6 +88,8 @@ public class GemsoresMod {
             event.accept(ModBlock.DEEPSLATE_SAPPHIRE_ORE);
             event.accept(ModBlock.TOPAZ_ORE);
             event.accept(ModBlock.DEEPSLATE_TOPAZ_ORE);
+            event.accept(ModBlock.AQUAMARINE_ORE);
+            event.accept(ModBlock.DEEPSLATE_AQUAMARINE_ORE);
             event.accept(ModBlock.NETHER_TOPAZ_ORE);
             event.accept(ModBlock.NETHER_COAL_ORE);
             event.accept(ModBlock.NETHER_IRON_ORE);
@@ -101,6 +104,7 @@ public class GemsoresMod {
             event.accept(ModBlock.RUBY_BLOCK);
             event.accept(ModBlock.TOPAZ_BLOCK);
             event.accept(ModBlock.SAPPHIRE_BLOCK);
+            event.accept(ModBlock.AQUAMARINE_BLOCK);
             event.accept(ModBlock.CHAROITE_BLOCK);
             event.accept(ModBlock.ENDERITE_BLOCK);
             event.accept(ModBlock.PRISM_BLOCK);
@@ -109,12 +113,14 @@ public class GemsoresMod {
         if(event.getTabKey() == CreativeModeTabs.COMBAT){
             event.accept(ModItems.RUBY_SWORD);
             event.accept(ModItems.TOPAZ_SWORD);
+            event.accept(ModItems.EMERALD_SWORD);
             event.accept(ModItems.SAPPHIRE_SWORD);
             event.accept(ModItems.CHAROITE_SWORD);
             event.accept(ModItems.ENDERITE_SWORD);
             event.accept(ModItems.PRISM_SWORD);
             event.accept(ModItems.RUBY_AXE);
             event.accept(ModItems.TOPAZ_AXE);
+            event.accept(ModItems.EMERALD_AXE);
             event.accept(ModItems.SAPPHIRE_AXE);
             event.accept(ModItems.CHAROITE_AXE);
             event.accept(ModItems.ENDERITE_AXE);
@@ -128,6 +134,10 @@ public class GemsoresMod {
             event.accept(ModItems.TOPAZ_CHESTPLATE);
             event.accept(ModItems.TOPAZ_LEGGINGS);
             event.accept(ModItems.TOPAZ_BOOTS);
+            event.accept(ModItems.EMERALD_HELMET);
+            event.accept(ModItems.EMERALD_CHESTPLATE);
+            event.accept(ModItems.EMERALD_LEGGINGS);
+            event.accept(ModItems.EMERALD_BOOTS);
             event.accept(ModItems.SAPPHIRE_HELMET);
             event.accept(ModItems.SAPPHIRE_CHESTPLATE);
             event.accept(ModItems.SAPPHIRE_LEGGINGS);
@@ -146,7 +156,8 @@ public class GemsoresMod {
             event.accept(ModItems.PRISM_BOOTS);
             //horse armor
             event.accept(ModItems.RUBY_HORSE_ARMOR);
-            event.accept(ModItems.TOPAZ_HORSE_ARMOR );
+            event.accept(ModItems.TOPAZ_HORSE_ARMOR);
+            event.accept(ModItems.EMERALD_HORSE_ARMOR);
             event.accept(ModItems.SAPPHIRE_HORSE_ARMOR);
             event.accept(ModItems.CHAROITE_HORSE_ARMOR);
             event.accept(ModItems.ENDERITE_HORSE_ARMOR);
@@ -161,6 +172,10 @@ public class GemsoresMod {
             event.accept(ModItems.TOPAZ_AXE);
             event.accept(ModItems.TOPAZ_HOE);
             event.accept(ModItems.TOPAZ_SHOVEL);
+            event.accept(ModItems.EMERALD_PICKAXE);
+            event.accept(ModItems.EMERALD_AXE);
+            event.accept(ModItems.EMERALD_HOE);
+            event.accept(ModItems.EMERALD_SHOVEL);
             event.accept(ModItems.SAPPHIRE_PICKAXE);
             event.accept(ModItems.SAPPHIRE_AXE);
             event.accept(ModItems.SAPPHIRE_HOE);

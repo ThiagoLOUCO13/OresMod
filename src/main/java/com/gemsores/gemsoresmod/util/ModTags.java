@@ -16,6 +16,9 @@ public class ModTags {
         public static final TagKey<Block> NEEDS_TOPAZ_TOOL = createTag("needs_topaz_tool");
         public static final TagKey<Block> INCORRECT_FOR_TOPAZ_TOOL = createTag("incorrect_for_topaz_tool");
 
+        public static final TagKey<Block> NEEDS_EMERALD_TOOL = createTag("needs_emerald_tool");
+        public static final TagKey<Block> INCORRECT_FOR_EMERALD_TOOL = createTag("incorrect_for_emerald_tool");
+
         public static final TagKey<Block> NEEDS_SAPPHIRE_TOOL = createTag("needs_sapphire_tool");
         public static final TagKey<Block> INCORRECT_FOR_SAPPHIRE_TOOL = createTag("incorrect_for_sapphire_tool");
 

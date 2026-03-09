@@ -9,6 +9,7 @@ import net.minecraft.server.packs.PackType;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.armortrim.TrimMaterial;
 import net.minecraft.world.item.armortrim.TrimMaterials;
+import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.client.model.generators.ItemModelBuilder;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
@@ -42,6 +43,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.RUBY.get());
         basicItem(ModItems.SAPPHIRE.get());
         basicItem(ModItems.TOPAZ.get());
+        basicItem(ModItems.AQUAMARINE.get());
         basicItem(ModItems.CHAROITE.get());
         basicItem(ModItems.ENDERITE.get());
         basicItem(ModItems.PRISM.get());
@@ -66,6 +68,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.TOPAZ_SHOVEL);
         handheldItem(ModItems.TOPAZ_AXE);
         handheldItem(ModItems.TOPAZ_HOE);
+
+        handheldItem(ModItems.EMERALD_SWORD);
+        handheldItem(ModItems.EMERALD_PICKAXE);
+        handheldItem(ModItems.EMERALD_SHOVEL);
+        handheldItem(ModItems.EMERALD_AXE);
+        handheldItem(ModItems.EMERALD_HOE);
 
         handheldItem(ModItems.SAPPHIRE_SWORD);
         handheldItem(ModItems.SAPPHIRE_PICKAXE);
@@ -102,6 +110,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.TOPAZ_LEGGINGS);
         trimmedArmorItem(ModItems.TOPAZ_BOOTS);
 
+        trimmedArmorItem(ModItems.EMERALD_HELMET);
+        trimmedArmorItem(ModItems.EMERALD_CHESTPLATE);
+        trimmedArmorItem(ModItems.EMERALD_LEGGINGS);
+        trimmedArmorItem(ModItems.EMERALD_BOOTS);
+
         trimmedArmorItem(ModItems.SAPPHIRE_HELMET);
         trimmedArmorItem(ModItems.SAPPHIRE_CHESTPLATE);
         trimmedArmorItem(ModItems.SAPPHIRE_LEGGINGS);
@@ -125,6 +138,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         //horse armor
         basicItem(ModItems.RUBY_HORSE_ARMOR.get());
         basicItem(ModItems.TOPAZ_HORSE_ARMOR.get());
+        basicItem(ModItems.EMERALD_HORSE_ARMOR.get());
         basicItem(ModItems.SAPPHIRE_HORSE_ARMOR.get());
         basicItem(ModItems.CHAROITE_HORSE_ARMOR.get());
         basicItem(ModItems.ENDERITE_HORSE_ARMOR.get());

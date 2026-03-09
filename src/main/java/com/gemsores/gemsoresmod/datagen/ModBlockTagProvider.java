@@ -24,13 +24,16 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlock.RUBY_BLOCK.get())
                 .add(ModBlock.SAPPHIRE_BLOCK.get())
                 .add(ModBlock.TOPAZ_BLOCK.get())
+                .add(ModBlock.AQUAMARINE_BLOCK.get())
                 .add(ModBlock.RUBY_ORE.get())
                 .add(ModBlock.CHAROITE_BLOCK.get())
                 .add(ModBlock.SAPPHIRE_ORE.get())
                 .add(ModBlock.TOPAZ_ORE.get())
+                .add(ModBlock.AQUAMARINE_ORE.get())
                 .add(ModBlock.DEEPSLATE_RUBY_ORE.get())
                 .add(ModBlock.DEEPSLATE_SAPPHIRE_ORE.get())
                 .add(ModBlock.DEEPSLATE_TOPAZ_ORE.get())
+                .add(ModBlock.DEEPSLATE_AQUAMARINE_ORE.get())
                 .add(ModBlock.NETHER_TOPAZ_ORE.get())
                 .add(ModBlock.NETHER_DIAMOND_ORE.get())
                 .add(ModBlock.NETHER_REDSTONE_ORE.get())
@@ -51,9 +54,11 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlock.RUBY_ORE.get())
                 .add(ModBlock.SAPPHIRE_ORE.get())
                 .add(ModBlock.TOPAZ_ORE.get())
+                .add(ModBlock.AQUAMARINE_ORE.get())
                 .add(ModBlock.DEEPSLATE_RUBY_ORE.get())
                 .add(ModBlock.DEEPSLATE_SAPPHIRE_ORE.get())
                 .add(ModBlock.DEEPSLATE_TOPAZ_ORE.get())
+                .add(ModBlock.DEEPSLATE_AQUAMARINE_ORE.get())
                 .add(ModBlock.NETHER_TOPAZ_ORE.get())
                 .add(ModBlock.NETHER_DIAMOND_ORE.get())
                 .add(ModBlock.NETHER_REDSTONE_ORE.get());
@@ -75,6 +80,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlock.RUBY_BLOCK.get())
                 .add(ModBlock.SAPPHIRE_BLOCK.get())
                 .add(ModBlock.TOPAZ_BLOCK.get())
+                .add(ModBlock.AQUAMARINE_BLOCK.get())
                 .add(ModBlock.CHAROITE_BLOCK.get())
                 .add(ModBlock.PRISM_BLOCK.get())
                 .add(ModBlock.ENDERITE_BLOCK.get());
@@ -95,6 +101,14 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(ModTags.Blocks.INCORRECT_FOR_TOPAZ_TOOL)
                 .addTag(BlockTags.INCORRECT_FOR_NETHERITE_TOOL)
                 .remove(ModTags.Blocks.NEEDS_TOPAZ_TOOL);
+
+
+        tag(ModTags.Blocks.NEEDS_EMERALD_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_EMERALD_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
+                .remove(ModTags.Blocks.NEEDS_EMERALD_TOOL);
 
 
         tag(ModTags.Blocks.NEEDS_SAPPHIRE_TOOL)

@@ -2,6 +2,7 @@
   "item.gemsoresmod.ruby": "Ruby",
   "item.gemsoresmod.sapphire": "Sapphire",
   "item.gemsoresmod.topaz": "Topaz",
+  "item.gemsoresmod.aquamarine": "Aquamarine",
   "item.gemsoresmod.charoite": "Charoite",
   "item.gemsoresmod.enderite": "Enderite",
   "item.gemsoresmod.prism": "Prism",
@@ -21,6 +22,9 @@
   "block.gemsoresmod.topaz_block": "Topaz of Block",
   "block.gemsoresmod.topaz_ore": "Topaz Ore",
   "block.gemsoresmod.deepslate_topaz_ore": "Deepslate Topaz Ore",
+  "block.gemsoresmod.aquamarine_block": "Aquamarine of Block",
+  "block.gemsoresmod.aquamarine_ore": "Aquamarine Ore",
+  "block.gemsoresmod.deepslate_aquamarine_ore": "Deepslate Aquamarine Ore",
   "block.gemsoresmod.nether_topaz_ore": "Nether Topaz Ore",
   "block.gemsoresmod.nether_coal_ore": "Nether Coal Ore",
   "block.gemsoresmod.nether_iron_ore": "Nether Iron Ore",
@@ -46,6 +50,12 @@
   "item.gemsoresmod.topaz_shovel": "Topaz Shovel",
   "item.gemsoresmod.topaz_axe": "Topaz Axe",
   "item.gemsoresmod.topaz_hoe": "Topaz Hoe",
+
+  "item.gemsoresmod.emerald_sword": "Emerald Sword",
+  "item.gemsoresmod.emerald_pickaxe": "Emerald Pickaxe",
+  "item.gemsoresmod.emerald_shovel": "Emerald Shovel",
+  "item.gemsoresmod.emerald_axe": "Emerald Axe",
+  "item.gemsoresmod.emerald_hoe": "Emerald Hoe",
 
   "item.gemsoresmod.sapphire_sword": "Sapphire Sword",
   "item.gemsoresmod.sapphire_pickaxe": "Sapphire Pickaxe",
@@ -77,6 +87,11 @@
   "item.gemsoresmod.ruby_leggings": "Ruby Leggings",
   "item.gemsoresmod.ruby_boots": "Ruby Boots",
 
+  "item.gemsoresmod.emerald_helmet": "Emerald Helmet",
+  "item.gemsoresmod.emerald_chestplate": "Emerald Chestplate",
+  "item.gemsoresmod.emerald_leggings": "Emerald Leggings",
+  "item.gemsoresmod.emerald_boots": "Emerald Boots",
+
   "item.gemsoresmod.topaz_helmet": "Topaz Helmet",
   "item.gemsoresmod.topaz_chestplate": "Topaz Chestplate",
   "item.gemsoresmod.topaz_leggings": "Topaz Leggings",
@@ -105,6 +120,7 @@
 
   "item.gemsoresmod.ruby_horse_armor": "Ruby Horse Armor",
   "item.gemsoresmod.topaz_horse_armor": "Topaz Horse Armor",
+  "item.gemsoresmod.emerald_horse_armor": "Emerald Horse Armor",
   "item.gemsoresmod.sapphire_horse_armor": "Sapphire Horse Armor",
   "item.gemsoresmod.charoite_horse_armor": "Charoite Horse Armor",
   "item.gemsoresmod.enderite_horse_armor": "Enderite Horse Armor",

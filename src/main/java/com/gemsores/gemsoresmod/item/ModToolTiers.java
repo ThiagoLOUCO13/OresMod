@@ -1,6 +1,7 @@
 package com.gemsores.gemsoresmod.item;
 
 import com.gemsores.gemsoresmod.util.ModTags;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.neoforged.neoforge.common.SimpleTier;
@@ -11,6 +12,9 @@ public class ModToolTiers {
 
     public static final Tier TOPAZ = new SimpleTier(ModTags.Blocks.INCORRECT_FOR_TOPAZ_TOOL,
             495, 5f, 1.5f, 12, () -> Ingredient.of(ModItems.TOPAZ));
+
+    public static final Tier EMERALD = new SimpleTier(ModTags.Blocks.INCORRECT_FOR_EMERALD_TOOL,
+            495, 5f, 1.5f, 12, () -> Ingredient.of(Items.EMERALD));
 
     public static final Tier SAPPHIRE = new SimpleTier(ModTags.Blocks.INCORRECT_FOR_SAPPHIRE_TOOL,
             936, 7f, 3f, 16, () -> Ingredient.of(ModItems.SAPPHIRE));
