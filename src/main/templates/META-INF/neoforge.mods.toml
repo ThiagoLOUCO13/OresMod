@@ -46,7 +46,7 @@ credits="Thiago_LOUCO13, Richzy13" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-A mod that bring Ruby, Sapphire e Topaz for the game!
+A mod that bring Ruby, Sapphire and Topaz for the game! And new gems...
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
