@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "gemsoresmod:topaz_nugget_from_smelting_topaz_axe"
+        "recipe": "gemsoresmod:topaz_nugget_smelting"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_topaz_axe": {
+    "has_topaz_stuff": {
       "conditions": {
         "items": [
           {
-            "items": "gemsoresmod:topaz_axe"
+            "items": "#gemsoresmod:topaz_nugget_smeltables"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_topaz_axe"
+      "has_topaz_stuff"
     ]
   ],
   "rewards": {
     "recipes": [
-      "gemsoresmod:topaz_nugget_from_smelting_topaz_axe"
+      "gemsoresmod:topaz_nugget_smelting"
     ]
   }
 }

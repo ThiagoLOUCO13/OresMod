@@ -154,6 +154,18 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.ENDERITE_LEGGINGS.get())
                 .add(ModItems.PRISM_LEGGINGS.get());
 
+        tag(ModTags.Items.TOPAZ_NUGGET_SMELTABLES)
+                .add(ModItems.TOPAZ_SWORD.get())
+                .add(ModItems.TOPAZ_PICKAXE.get())
+                .add(ModItems.TOPAZ_AXE.get())
+                .add(ModItems.TOPAZ_SHOVEL.get())
+                .add(ModItems.TOPAZ_HOE.get())
+                .add(ModItems.TOPAZ_HELMET.get())
+                .add(ModItems.TOPAZ_CHESTPLATE.get())
+                .add(ModItems.TOPAZ_LEGGINGS.get())
+                .add(ModItems.TOPAZ_BOOTS.get())
+                .add(ModItems.TOPAZ_HORSE_ARMOR.get());
+
         tag(TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("c", "gems")))
                 .add(ModItems.RUBY.get())
                 .add(ModItems.TOPAZ.get())

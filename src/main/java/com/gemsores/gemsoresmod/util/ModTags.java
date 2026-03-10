@@ -39,6 +39,7 @@ public class ModTags {
     public static class Items {
         //public static final TagKey<Item> CHAROITE_ARMORS = createTag("charoite_armors");
         //public static final TagKey<Item> NETHERITE_ARMORS = createTag("netherite_armors");
+        public static final  TagKey<Item> TOPAZ_NUGGET_SMELTABLES = createTag("topaz_nugget_smeltables");
 
 
 

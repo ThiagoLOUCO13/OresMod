@@ -3,6 +3,7 @@ package com.gemsores.gemsoresmod.datagen;
 import com.gemsores.gemsoresmod.GemsoresMod;
 import com.gemsores.gemsoresmod.block.ModBlock;
 import com.gemsores.gemsoresmod.item.ModItems;
+import com.gemsores.gemsoresmod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
@@ -16,6 +17,8 @@ import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
+
+import static com.gemsores.gemsoresmod.util.ModTags.Items.TOPAZ_NUGGET_SMELTABLES;
 
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
@@ -45,9 +48,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 ModBlock.NETHER_COPPER_ORE);
         List<ItemLike> CHAROITE_SMELTABLES = List.of(
                 ModBlock.NETHER_CHAROITE_ORE, ModBlock.END_CHAROITE_ORE);
-        List<ItemLike> TOPAZ_NUGGET_SMELTABLES = List.of(
-                ModItems.TOPAZ_AXE, ModItems.TOPAZ_HOE, ModItems.TOPAZ_PICKAXE, ModItems.TOPAZ_SHOVEL, ModItems.TOPAZ_SWORD,
-                ModItems.TOPAZ_CHESTPLATE, ModItems.TOPAZ_BOOTS,  ModItems.TOPAZ_HELMET, ModItems.TOPAZ_LEGGINGS, ModItems.TOPAZ_HORSE_ARMOR);
+
 
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlock.RUBY_BLOCK.get())
@@ -249,8 +250,21 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(recipeOutput, COPPER_SMELTABLES , RecipeCategory.MISC, Items.COPPER_INGOT ,0.25f, 200, "copper_nugget");
         oreBlasting(recipeOutput, COPPER_SMELTABLES , RecipeCategory.MISC, Items.COPPER_INGOT ,0.25f, 100, "copper_nugget");
 
-        oreSmelting(recipeOutput, TOPAZ_NUGGET_SMELTABLES , RecipeCategory.MISC, ModItems.TOPAZ_NUGGET ,0.25f, 200, "topaz_nugget");
-        oreBlasting(recipeOutput, TOPAZ_NUGGET_SMELTABLES , RecipeCategory.MISC, ModItems.TOPAZ_NUGGET ,0.25f, 100, "topaz_nugget");
+        SimpleCookingRecipeBuilder.smelting(
+                        Ingredient.of(TOPAZ_NUGGET_SMELTABLES),
+                        RecipeCategory.MISC,
+                        ModItems.TOPAZ_NUGGET.get(),
+                        0.25f, 200)
+                .unlockedBy("has_topaz_stuff", has(TOPAZ_NUGGET_SMELTABLES))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath(GemsoresMod.MOD_ID, "topaz_nugget_smelting"));
+
+        SimpleCookingRecipeBuilder.blasting(
+                        Ingredient.of(TOPAZ_NUGGET_SMELTABLES),
+                        RecipeCategory.MISC,
+                        ModItems.TOPAZ_NUGGET.get(),
+                        0.25f, 100)
+                .unlockedBy("has_topaz_stuff", has(TOPAZ_NUGGET_SMELTABLES))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath(GemsoresMod.MOD_ID, "topaz_nugget_blasting"));
 
         //armor:
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RUBY_HELMET.get())

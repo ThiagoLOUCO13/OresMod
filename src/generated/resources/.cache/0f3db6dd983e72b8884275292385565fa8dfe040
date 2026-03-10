@@ -1,5 +1,6 @@
-// 1.21.1	2026-03-08T22:18:02.9920937	Tags for minecraft:item mod id gemsoresmod
+// 1.21.1	2026-03-09T22:23:36.2668471	Tags for minecraft:item mod id gemsoresmod
 46e3ad97f76ae46a0b1125b9fd315017d1e36bc2 data/c/tags/item/gems.json
+6d02504f1f4c73382074701688a85bd34a20d586 data/gemsoresmod/tags/item/topaz_nugget_smeltables.json
 d566959dd2e89608935fb0d0be96f6dbf530d1d2 data/minecraft/tags/item/axes.json
 6a4eabe0570092d39092b2158d4ee4f598850598 data/minecraft/tags/item/beacon_payment_items.json
 31f8bf278a42457a6bda0c2ab34004d3cdf30677 data/minecraft/tags/item/chest_armor.json

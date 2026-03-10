@@ -1,11 +1,10 @@
 {
-  "type": "minecraft:smelting",
+  "type": "minecraft:blasting",
   "category": "misc",
-  "cookingtime": 200,
+  "cookingtime": 100,
   "experience": 0.25,
-  "group": "topaz_nugget",
   "ingredient": {
-    "item": "gemsoresmod:topaz_chestplate"
+    "tag": "gemsoresmod:topaz_nugget_smeltables"
   },
   "result": {
     "count": 1,

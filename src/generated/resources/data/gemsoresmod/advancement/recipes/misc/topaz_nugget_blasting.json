@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "gemsoresmod:topaz_nugget_from_blasting_topaz_shovel"
+        "recipe": "gemsoresmod:topaz_nugget_blasting"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_topaz_shovel": {
+    "has_topaz_stuff": {
       "conditions": {
         "items": [
           {
-            "items": "gemsoresmod:topaz_shovel"
+            "items": "#gemsoresmod:topaz_nugget_smeltables"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_topaz_shovel"
+      "has_topaz_stuff"
     ]
   ],
   "rewards": {
     "recipes": [
-      "gemsoresmod:topaz_nugget_from_blasting_topaz_shovel"
+      "gemsoresmod:topaz_nugget_blasting"
     ]
   }
 }

@@ -1,11 +1,10 @@
 {
-  "type": "minecraft:blasting",
+  "type": "minecraft:smelting",
   "category": "misc",
-  "cookingtime": 100,
+  "cookingtime": 200,
   "experience": 0.25,
-  "group": "topaz_nugget",
   "ingredient": {
-    "item": "gemsoresmod:topaz_boots"
+    "tag": "gemsoresmod:topaz_nugget_smeltables"
   },
   "result": {
     "count": 1,
